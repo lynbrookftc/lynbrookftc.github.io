@@ -1,13 +1,10 @@
 @font-face {
-    font-family: cassanet; /*a name to be used later*/
-    src: url(reg3.ttf);
+    font-family: 'Source Sans Pro', sans-serif;
 }
-
 @font-face {
-    font-family: cassanet1; /*a name to be used later*/
-    src: url(reg2.ttf);
+    font-family: Sans Pro Light; /*a name to be used later*/
+    src: url(SansProLight.ttf);
 }
-
 .logo {
     margin-top: 7px;
     right: 500px;
@@ -40,7 +37,7 @@
 }
 
 li {
-    padding-left: 0.2cm;
+    padding-left: 0cm;
 }
 .navbar-wrapper {
     position:fixed; /*fixed navbar position while scrolling*/
@@ -50,7 +47,7 @@ li {
     z-index: 1;
     padding: 5px 5px 0px 5px;
     text-align: center;
-    font-family: cassanet;
+    font-family: Sans Pro Light;
     color: white;
     background-color:rgb(15,118,186);
     opacity: 0.85;
@@ -58,8 +55,8 @@ li {
     position:absolute;
     top:50%;
     left:50%;
-    margin-top:200px; /* this is half the height of your div*/  
-    margin-left:-190px; /*this is half of width of your div*/
+    margin-top:175px; /* this is half the height of your div*/  
+    margin-left:-175px; /*this is half of width of your div*/
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: white;
@@ -109,14 +106,14 @@ li {
 .mah  {
     position: relative;
     top: -450px;
-    right: -300px;
+    right: -350px;
     font-size: 40px;
     font-weight: bolder;
 }
 .lead   {
     position: relative;
     top: -450px;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     right:-260px;
 }
@@ -136,7 +133,7 @@ hr  {
 
 .col-md-7   {
     margin-top: 360px;
-    font-family: cassanet;
+    font-family: Source Sans Pro;
     color:white;
 }
 
@@ -145,15 +142,14 @@ hr  {
     color: white;
 }
 .lead   {
-    font-size: 18px;
-    font-style: bold;
+    font-size: 21.5px;
 }
 * {
   border-radius: 0 !important;
 }
 
 .navbar {
-    font-family: cassanet;
+    font-family: Source Sans Pro;
     font-size: 25px;
     color: red;
     opacity: 0.9;
@@ -209,6 +205,7 @@ hr  {
 
 div#col-lg-4 span#a {
     color:white;align-content: center;
+    font-size: 30px;
     z-index: 1; position:relative;
     display:inline;
 }
@@ -223,7 +220,8 @@ div#col-lg-4 span#b {
 
 div#col-lg-4:hover span#b {
     text-align: center;
-    color:white;      
+    color:white;   
+    font-size: 30px;
     z-index: 1; 
     position:relative;
     display:inline;
@@ -232,7 +230,7 @@ div#col-lg-4:hover span#b {
 .navbar .nav > li > a {
     text-decoration: none;
     color: rgb(15,118,186);
-    left: 450px;
+    left: 560px;
     margin-right: 0px;
     z-index: 1; 
     position:relative;
@@ -278,7 +276,7 @@ body {
 
 .game {
     position: relative;
-    font-family: cassanet1;
+    font-family: Source Sans Pro;
     color:#f15a24;
     font-size: 35px;
     right: 150px;
