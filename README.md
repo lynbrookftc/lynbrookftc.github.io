@@ -1,2 +1,2 @@
-# FTC_Website
-Website for Lynbrook FTC Team 7307
+# Oceanus_Website
+Website for Oceanus Desalination
