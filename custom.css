@@ -257,27 +257,30 @@ body {
     color:rgb(15,118,186);
     position: relative;
     right:100px;
-    top:-90px;
+    top:-120px;
 }
 
 #vid {
     margin: 0;
-    margin-top: 630px;
+    margin-top: 660px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border:20px solid #333333;
+    border:10px solid white;
 }
 
 .game {
-
-    font-family: Source Sans Pro;
+    
+    font-family: reg;
     color:black;
     font-size: 40px;
-    margin-top:105px;
+    margin-top:130px;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: white;
+    border: 10px solid white;
+    margin-left: 450px;
+    margin-right: 450px;
 }
 
  #circle {
@@ -290,7 +293,7 @@ body {
      
     }
 .boxed {
-  border: 20px solid rgb(15,118,186);
+    border: 20px solid rgb(15,118,186);
     background-color: rgb(15,118,186);
     color:white;
     font-family: Source Sans Pro;
@@ -298,7 +301,7 @@ body {
     text-align: center;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    margin-top: 140px;
+    margin-top: 120px;
 }
 .boxedinside {
     background-color: white;
@@ -316,4 +319,111 @@ body {
     margin-left: 20px;
     height:35px;
     top:-2px;
+}
+.tournamenttitle {
+     background-color:white;
+    border:10px solid white;
+    font-family: reg;
+    text-align: center;
+    color:black;
+    margin-left: 340px;
+    margin-right: 340px;
+    z-index: -1;
+    font-size: 40px;
+    margin-top: 70px;
+}
+.trophy {
+    position: relative;
+    height: 200px;
+    width:300px;
+    margin-top:-60px;
+    border: 10px solid white;
+}
+.tournament {
+    position: relative;
+   border:10px solid white;
+    height: 200px;
+    width:300px;
+    margin-left: 560px;
+    margin-top:-60px;
+}
+
+.tournamenttext {
+    text-align: center;
+    font-family: reg;
+    font-size:22px;
+    margin-left: 340px;
+    margin-right: 340px;
+    margin-top:-130px;
+    background-color:white;
+    border:10px solid white;
+    color:black;
+}
+.background2 {
+    position:absolute;
+    image-rendering: -webkit-optimize-contrast;
+    z-index:-1;
+    left:0;
+    top:2180px;
+    width:100%;
+    height:60%; 
+    background-color:rgb(15,118,186);
+    border-top:20px solid white;
+}
+
+.signuptext {
+    text-align: center;
+    font-family: reg;
+    font-size: 30px;
+    color:white;
+    margin-top: 80px;
+}
+.chinese {
+    margin-top: 70px;
+    z-index: 1;
+    padding: 5px 5px 0px 5px;
+    padding-right: 0px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    color: white;
+    background-color:rgb(15,118,186);
+    margin-left: 560px;
+    margin-right: 540px;
+    padding-top: -20px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: white;
+    border-radius:10px;
+}
+.chinese:hover {
+z-index: 1; 
+    text-align: center;
+    padding-right: 5px;
+    background-color:#02a9e6;
+    padding-right: 0px;
+}
+div.chinese span#a {
+    color:white;
+    align-content: center;
+    font-size: 30px;
+    z-index: 1; position:relative;
+    display:inline;
+}
+
+div.chinese:hover span#a {
+    display:none;
+}
+
+div.chinese span#b {
+    display:none;
+}
+
+div.chinese:hover span#b {
+    text-align: center;
+    color:white;   
+    font-size: 30px;
+    z-index: 1; 
+    opacity: 0px;
+    position:relative;
+    display:inline;
 }
