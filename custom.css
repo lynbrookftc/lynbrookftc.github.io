@@ -1,21 +1,16 @@
 @font-face {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;; /*a name to be used later*/
 }
-@font-face {
-    font-family: Sans Pro Light; /*a name to be used later*/
-    src: url(SansProLight.ttf);
-}
-@font-face {
-    font-family: reg; /*a name to be used later*/
-    src: url(reg.ttf);
-}
+
 .logo {
     margin-top: 7px;
     right: 500px;
 }
+
 * {
     border-radius: 0px;
 }
+
 .background {
     position:absolute;
     image-rendering: -webkit-optimize-contrast;
@@ -45,6 +40,7 @@
 li {
     padding-left: 0cm;
 }
+
 .navbar-wrapper {
     position:fixed; /*fixed navbar position while scrolling*/
 }
@@ -54,6 +50,7 @@ li {
     padding: 5px 5px 0px 5px;
     text-align: center;
     font-family: Source Sans Pro;
+    font-weight: 400;
     color: white;
     background-color:rgb(15,118,186);
     margin-left: 380px;
@@ -71,7 +68,7 @@ li {
     text-align: center;
 }
 
-.nounderline{
+.nounderline {
     text-decoration: none;
     color:white;
     text-align: center;
@@ -106,7 +103,7 @@ li {
     border: 1px solid grey
 }
 
-.mah  {
+.webheader {
     position: absolute;
     font-size: 40px;
     margin: 0px;
@@ -114,32 +111,35 @@ li {
     font-family: Source Sans Pro;
     margin-right: -50%;
     margin-top: -300px;
-}
-.chin   {
-    z-index: 1;position: absolute;
-    margin-top:150px;
-    font-family: reg;
-    font-size: 30px;
-    color:white;
-    text-align: center;
-    margin-right: 100px;
-    margin-left:80px;
     
 }
 
-hr  {
+.headertext {
+    z-index: 1;position: absolute;
+    margin-top:150px;
+    font-family: Source Sans Pro;
+    font-size: 30px;
+    color:white;
+    text-align: center;
+    margin-right: 110px;
+    margin-left:90px;
+    font-weight: 600;
+    
+}
+
+hr {
     margin-top: 1000px;
 }
 
-#col-lg-4 .first    {
+#col-lg-4 .first {
     font-size: 60px; 
 }
 
-#col-lg-4 .second    {
+#col-lg-4 .second {
     font-size: 23px;
 }
 
-.col-md-7   {
+.col-md-7 {
     margin-top: 360px;
     font-family: Source Sans Pro;
     color:white;
@@ -150,10 +150,9 @@ hr  {
     color: white;
 }
 
-
-
 .navbar {
     font-family: Source Sans Pro;
+    font-weight: 600;
     font-size: 25px;
     background-color:#333333;
     margin-left: 0;
@@ -162,9 +161,10 @@ hr  {
     position: relative;
     margin-right: 0px;
     border-radius: 0px !important;
+    border-bottom: 0px !important;
 }
 
-.code   {
+.code {
     position: relative;
     height: auto;
     right: -300px;
@@ -237,8 +237,9 @@ div#col-lg-4:hover span#b {
     margin-right: -2px;
     z-index: 1; 
     position:relative;
+    border-bottom: 0px;
 }
-.navbar .nav > li > a:hover{
+.navbar .nav > li > a:hover {
     color: white;
 }
 
@@ -272,7 +273,9 @@ body {
 
 .game {
     
-    font-family: reg;
+    font-family: Source Sans Pro;
+    font-weight: 600;
+    font-size: 40px;
     color:rgb(15,118,186);
     font-size: 40px;
     margin-top:130px;
@@ -290,19 +293,21 @@ body {
       -moz-border-radius: 25px;
       border-radius: 25px;
       background: red;
-     
-    }
+}
+
 .boxed {
     border: 20px solid rgb(15,118,186);
     background-color: rgb(15,118,186);
     color:white;
     font-family: Source Sans Pro;
+    font-weight: 600;
     font-size: 40px;
     text-align: center;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     margin-top: 120px;
 }
+
 .boxedinside {
     background-color: white;
     font-family: Source Sans Pro;
@@ -311,8 +316,8 @@ body {
     border:3px solid rgb(15,118,186);
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-
 }
+
 .check {
     position: relative;
     height: auto;
@@ -320,10 +325,13 @@ body {
     height:35px;
     top:-2px;
 }
+
 .tournamenttitle {
-     background-color:white;
+    background-color:white;
     border:10px solid white;
-    font-family: reg;
+    font-family: Source Sans Pro;
+    font-weight: 600;
+    font-size: 40px;
     text-align: center;
     color:rgb(15,118,186);
     margin-left: 340px;
@@ -332,6 +340,7 @@ body {
     font-size: 40px;
     margin-top: 70px;
 }
+
 .trophy {
     position: relative;
     height: 200px;
@@ -339,9 +348,10 @@ body {
     margin-top:-60px;
     border: 10px solid white;
 }
+
 .tournament {
     position: relative;
-   border:10px solid white;
+    border:10px solid white;
     height: 200px;
     width:300px;
     margin-left: 560px;
@@ -350,7 +360,8 @@ body {
 
 .tournamenttext {
     text-align: center;
-    font-family: reg;
+    font-family: Source Sans Pro;
+    font-weight: 600;
     font-size:22px;
     margin-left: 340px;
     margin-right: 340px;
@@ -359,6 +370,7 @@ body {
     border:10px solid white;
     color:black;
 }
+
 .background2 {
     position:absolute;
     image-rendering: -webkit-optimize-contrast;
@@ -373,18 +385,21 @@ body {
 
 .signuptext {
     text-align: center;
-    font-family: reg;
+    font-family: Source Sans Pro;
+     font-weight: 600;
     font-size: 30px;
     color:white;
     margin-top: 80px;
 }
-.chinese {
+
+.signupbutton {
     margin-top: 70px;
     z-index: 1;
     padding: 5px 5px 0px 5px;
     padding-right: 0px;
     text-align: center;
     font-family: Source Sans Pro;
+    font-weight: 600;
     color: white;
     background-color:rgb(15,118,186);
     margin-left: 560px;
@@ -395,14 +410,16 @@ body {
     border-color: white;
     border-radius:10px;
 }
-.chinese:hover {
+
+.signupbutton:hover {
 z-index: 1; 
     text-align: center;
     padding-right: 5px;
     background-color:#02a9e6;
     padding-right: 0px;
 }
-div.chinese span#a {
+
+div.signupbutton span#a {
     color:white;
     align-content: center;
     font-size: 30px;
@@ -410,15 +427,15 @@ div.chinese span#a {
     display:inline;
 }
 
-div.chinese:hover span#a {
+div.signupbutton:hover span#a {
     display:none;
 }
 
-div.chinese span#b {
+div.signupbutton span#b {
     display:none;
 }
 
-div.chinese:hover span#b {
+div.signupbutton:hover span#b {
     text-align: center;
     color:white;   
     font-size: 30px;
