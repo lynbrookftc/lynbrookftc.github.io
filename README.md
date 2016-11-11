@@ -1,2 +1,2 @@
-# Oceanus_Website
-Website for Oceanus Desalination
+# FTC_Website
+Website for First Tech Challenge Team 7307
