@@ -2040,7 +2040,7 @@
 }
 
 .grey-text {
-  color: #9e9e9e !important;
+  color: #515151 !important;
 }
 
 .grey.lighten-5 {
@@ -2183,6 +2183,7 @@ nav,
 section,
 summary {
   display: block;
+    opacity: 80%;
 }
 
 /**
@@ -2579,11 +2580,11 @@ a {
 }
 
 .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  
 }
 
 .z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  
 }
 
 .z-depth-2 {
@@ -2868,7 +2869,7 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: -2%;
   padding-top: 20px;
-  background-color: rgb(15,118,186);
+  background-color: #13181B;
 }
 
 footer.page-footer .footer-copyright {
@@ -3135,6 +3136,7 @@ nav ul a span.badge {
   margin-left: 4px;
   line-height: 22px;
   height: 22px;
+    opacity: 80%;
 }
 
 .side-nav span.badge.new,
@@ -3171,8 +3173,8 @@ nav ul a span.badge {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 0%;
+  height: 0%;
 }
 
 .progress {
@@ -4017,6 +4019,7 @@ nav {
 
 nav.nav-extended {
   height: auto;
+    opacity: 80%;
 }
 
 nav.nav-extended .nav-wrapper {
@@ -4188,10 +4191,12 @@ nav .input-field label.active {
   position: relative;
   height: 56px;
   z-index: 997;
+    opacity: 80%;
 }
 
 .navbar-fixed nav {
   position: fixed;
+    opacity: 80%;
 }
 
 @media only screen and (min-width: 601px) {
@@ -4201,6 +4206,7 @@ nav .input-field label.active {
   }
   .navbar-fixed {
     height: 64px;
+      opacity: 80%;
   }
 }
 
@@ -5476,6 +5482,7 @@ button.btn-floating {
 .side-nav.fixed .collapsible {
   border: none;
   box-shadow: none;
+    opacity: 80%;
 }
 
 .side-nav .collapsible li,
@@ -5490,6 +5497,7 @@ button.btn-floating {
   line-height: inherit;
   height: inherit;
   padding: 0 16px;
+    opacity: 80%;
 }
 
 .side-nav .collapsible-header:hover,

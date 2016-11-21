@@ -1,28 +1,72 @@
 .topnav {
-    background-color: #333333;
-    font-family: 'Source Sans Pro', sans-serif;
+    background-color: white;
+  font-family: 'Ubuntu', sans-serif;
     font-size: 60px;
-    font-weight: 600;
+    color:#0091EA;
+    font-weight: 700;
+    opacity: 0.9;
+}
+
+.navigate {
+    opacity: 80%;
 }
 .background {
-    background-color: rgb(15,118,186);
+    background-color: #05233F;
     padding-bottom: 2%;
     border-bottom: 1px solid white;
 }
 
+#youtubebtn {
+   font-family: 'Ubuntu', sans-serif;
+    font-size:200%;
+    font-weight: 600;    
+    color:#0091EA;
+    background-color: #DEE9F1;
+    border-color:white;
+    border:1px solid;
+    border-color:#0091EA;
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+.cad {
+    margin-left: 20%;
+    padding: 0px 0px 0px 0px;
+}
+
+.page-footer {
+    margin-top: 20%;
+}
+.thirdtitle, .thirdtext {
+    font-family: 'Ubuntu', sans-serif;
+}
+.blocktext {
+    margin-right: 10%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+#youtubebtn:hover {
+    background-color:white;
+    
+    background-color: #0091EA;
+    color:white;
+}
 .header {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
+   font-family: 'Ubuntu', sans-serif;
+    color:white;
+    
 }
 .title {
     font-weight:400;
     font-size: 300%;
     margin-top: 0%;
+    color:white;
 }
 
 .titletext {
     font-size:190%;
     margin-top: 0%;
+    color:white;
+    font-weight: 300;
 }
 
 .imageblock {
@@ -31,19 +75,19 @@
 
 #download-button {
     margin-top: -10%;
-    font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Ubuntu', sans-serif;
     font-size:200%;
-    font-weight: 600;
-    color:#02a9e6;
-    background-color: white;
+    font-weight: 600;    
+    color:white;
+    background-color: #05233F;
+    border-color:white;
     border:1px solid;
-    border-color: #02a9e6;
+  border-color:white;
 }
 
 #download-button:hover {
-    background-color:#4f4f4f ;
-    color:#02a9e6;
-    border-color:#02a9e6;
+    background-color:#0091EA;
+    color:white;
 }
 
 .homebtn {
@@ -51,8 +95,12 @@
     color:#7a7a7a;
 }
 
+.navigate {
+    opacity: 80%;
+}
+
 .original, .homebtn:hover {
-    color: white;
+    color: #05233F;
 }
 .navigate {
     margin-right: -20%;
@@ -61,18 +109,22 @@
 .vidsection {
     padding-left: 20%;
     padding-right: 20%;
-    background-color: #dddddd;
+    background-color: #DEE9F1;
     padding-bottom: 2.5%;
-     border-bottom: 1px solid white;
+    border-bottom: 1px solid white;
 }
+button{  position: absolute; top:37%; right:30%;
+    border: 1px solid red; display: block; background: #FFF; 
+    z-index: 2147483647;
+} 
 .video-container {
-    border: 10px solid white;
+    border: 10px solid #05233F;
 }
 .gametitle {
     font-weight: 400;
     font-size: 45px;
-    background-color: white;
-    color:rgb(15,118,186);
+    background-color: #DEE9F1;
+    color:#333333;
     padding-top: 1%;
     padding-bottom: 1%;
     margin-left: 28%;
@@ -80,37 +132,22 @@
     margin-top: 2%;
 }
 
+
+#first-child {
+  height: 200px;
+  width: 200px;
+  background: oranges;
+
+  }
 .cardbackground {
-    background-color: #4f4f4f;
+    background-color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight:600;
     padding-bottom: 3%;
      border-top: 1px solid white;
 }
-
-.card {
-    background-color: #02a9e6;
-    border: 1px solid white;
-    margin-top: 5%;
-}
-
-.card2 {
-    background-color: rgb(15,118,186);
-    border: 1px solid white;
-}
-
-.bottom-card {
-    margin-top: -2.5%;
-}
-@media screen and (min-width: 900px) {
-    .card {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
-
 .page-footer {
-    background-color: rgb(15,118,186);
+    background-color: black;
     border-top: 1px solid white;
     margin-top:-200%;
 }
@@ -119,16 +156,35 @@
     margin-top: 10%;
 }
 
-.signuplink:hover {
-   color:black;
+#sign-up {
+    color:#98D2FF;
+    margin-top: -10%;
+   font-family: 'Ubuntu', sans-serif;
+    font-size:200%;
+    font-weight: 600;    
+    background-color: #13181B;
+    border-color:white;
+    border:1px solid;
+  border-color:#98D2FF;
 }
-
+#sign-up:hover {
+   color:white;
+    border-color:white;
+}
+.midtitle {
+    font-size: 45px;
+}
 .bottombackground {
     background-color: black;
     margin-top:-4%;
     padding-bottom: 4%;
 }
 
+.whyustext {
+    margin-right:40%;
+}
+
+.bottomimage
 .tourncard {
     margin-top: -2.5%;
     margin-left: 18%;
@@ -137,27 +193,8 @@
     color:black;
     font-size:17px;
 }
-.tourney {
-    margin-left:17.5%;
-    width:23%;
-    height: 200px;
-    border:1px solid white;
-}
-.cardtourn {
-    background-color: white;
-    color:black;
-}
+
 .brand-logo {
     height:100%;
     margin-left: -21%;
-}
-.tournamenttitle {
-    color:rgb(15,118,186);
-}
-.carddesc, .cardtext {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-}
-.card-content {
-    font-size:18px;
 }
